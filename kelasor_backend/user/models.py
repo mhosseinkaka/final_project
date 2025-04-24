@@ -8,6 +8,7 @@ ROLE_CHOICES = (
         ('student', 'Student'),
         ('support', 'Support'),
         ('superuser', 'Superuser'),
+        ('teacher', 'Teacher'),
     )
 
 class UserManager(BaseUserManager):
